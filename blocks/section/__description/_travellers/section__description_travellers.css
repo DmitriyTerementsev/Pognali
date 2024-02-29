@@ -1,0 +1,13 @@
+@media screen and (max-width: 1439px) {
+  .section__description_travellers {
+    margin: 70px 0 0 0;
+    max-width: 429px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section__description_travellers {
+    margin: 34px 0 0 0;
+    max-width: 429px;
+  }
+}

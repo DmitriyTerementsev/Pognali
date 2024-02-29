@@ -1,0 +1,10 @@
+.contact__icon {
+  margin: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .contact__icon {
+    width: 18px;
+    height: 17px;
+  }
+}

@@ -1,0 +1,8 @@
+.tariff {
+  background-color: #edeff6;
+}
+
+@media screen and (max-width: 767px) {
+  .tariff {
+  }
+}

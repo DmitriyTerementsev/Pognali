@@ -1,0 +1,7 @@
+@media screen and (max-width: 767px) {
+  .card__icon {
+    width: 14px;
+    height: 14px;
+    margin-top: 3.5px;
+  }
+}

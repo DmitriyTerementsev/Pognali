@@ -1,0 +1,17 @@
+.section__container_travellers {
+  margin: 80px auto 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .section__container_travellers {
+    width: 80%;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section__container_travellers {
+    width: 85%;
+    flex-direction: column;
+  }
+}

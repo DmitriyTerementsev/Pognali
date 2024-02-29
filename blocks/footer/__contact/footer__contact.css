@@ -1,0 +1,23 @@
+.footer__contact {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-color: #ffd74b;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__contact {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+.footer__contact:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: #FFBD30;
+}

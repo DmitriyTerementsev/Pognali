@@ -1,0 +1,10 @@
+.contact__text_adress {
+  color: #1d2e5b;
+  margin: 0 0 0 31px;
+}
+
+@media screen and (max-width: 767px) {
+  .contact__text_adress {
+    max-width: 53%;
+  }
+}

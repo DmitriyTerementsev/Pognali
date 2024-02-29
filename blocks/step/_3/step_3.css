@@ -1,0 +1,21 @@
+.step_3 {
+  background-color: #ffbd30;
+  width: 29%;
+  margin-left: -30px;
+}
+
+@media screen and (max-width: 1439px) {
+  .step_3 {
+    width: 100%;
+    margin-left: 0;
+    border-bottom-left-radius: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .step_3 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: -80px;
+  }
+}

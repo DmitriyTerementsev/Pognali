@@ -1,0 +1,10 @@
+.footer__contacts_burger {
+  margin: 40px 0 0 137px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__contacts_burger {
+    margin: 40px auto 0 auto;
+    justify-content: center;
+  }
+}

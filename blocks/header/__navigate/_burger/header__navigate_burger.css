@@ -1,0 +1,13 @@
+.header__navigate_burger {
+  display: block;
+  width: 48%;
+  margin: 50px 0 0 97px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__navigate_burger {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

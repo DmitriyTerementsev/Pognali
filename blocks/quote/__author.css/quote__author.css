@@ -1,0 +1,18 @@
+.quote__author {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
+  width: 246px;
+  margin: 45px 0 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .quote__author {
+    max-width: 161px;
+    margin: 18px 0 0 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+}

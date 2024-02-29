@@ -1,0 +1,10 @@
+.card__counter {
+  display: flex;
+  margin-top: 23px;
+}
+
+@media screen and (max-width: 767px) {
+  .card__counter {
+    margin-top: 0;
+  }
+}

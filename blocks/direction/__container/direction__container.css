@@ -1,0 +1,21 @@
+.direction__container {
+  width: 91%;
+  margin: 88px auto 0 auto;
+  position: relative;
+  z-index: 5;
+  display: flex;
+}
+
+@media screen and (max-width: 1439px) {
+  .direction__container {
+    width: 80%;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .direction__container {
+    width: 84%;
+    flex-direction: column-reverse;
+  }
+}

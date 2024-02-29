@@ -1,0 +1,22 @@
+.step_4 {
+  background-color: #ffd74b;
+  width: 24%;
+  margin-left: -30px;
+}
+
+@media screen and (max-width: 1439px) {
+  .step_4 {
+    width: 100%;
+    border-bottom-right-radius: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .step_4 {
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-left: 0;
+    height: 80px;
+  }
+}

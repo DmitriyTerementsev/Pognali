@@ -1,0 +1,20 @@
+.square_light {
+  background-color: #e2e5f2;
+  width: 141px;
+  height: 141px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 1439px) {
+  .square_light {
+    position: absolute;
+    top: 328px;
+    left: -5%;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .square_light {
+    display: none;
+  }
+}

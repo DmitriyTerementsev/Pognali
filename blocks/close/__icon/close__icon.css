@@ -1,0 +1,7 @@
+.close__icon {
+  display: none;
+}
+
+.close__icon:hover {
+  cursor: pointer;
+}

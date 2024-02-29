@@ -1,0 +1,11 @@
+.registration__container {
+  width: 81%;
+  margin: 0 auto;
+  padding-bottom: 23px;
+}
+
+@media screen and (max-width: 1439px) {
+  .registration__container {
+    margin: 0 auto;
+  }
+}

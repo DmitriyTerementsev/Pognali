@@ -1,0 +1,9 @@
+.header__links_light-theme_burger {
+  gap: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .header__links_light-theme_burger {
+    padding-left: 0;
+  }
+}

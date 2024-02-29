@@ -1,0 +1,9 @@
+.button__triangle {
+  margin: 0 33px 0 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .button__triangle {
+    margin: auto 32px auto 0;
+  }
+}

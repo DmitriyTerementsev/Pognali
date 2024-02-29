@@ -1,0 +1,26 @@
+.contact__text {
+  margin: auto 110px auto 0;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #ffd74b;
+  transition: 0.5s;
+}
+
+.contact__text:last-of-type {
+  margin: auto 0;
+}
+
+@media screen and (max-width: 767px) {
+  .contact__text {
+    margin: auto 0;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+.contact__text:hover {
+  cursor: pointer;
+  color: #FFBD30;
+  transition: 0.5s;
+}

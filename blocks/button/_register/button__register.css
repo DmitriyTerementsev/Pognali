@@ -1,0 +1,26 @@
+.button_register {
+  width: 28%;
+  margin: 0;
+  appearance: none;
+  border: 0;
+  background-color: #ffd74b;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+  .button_register {
+    width: 13%;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button_register {
+    width: 80px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+}

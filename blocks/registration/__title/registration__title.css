@@ -1,0 +1,32 @@
+.registration__title {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #ff8d30;
+  margin: 109px auto 0 auto;
+  padding-bottom: 57px;
+  text-align: center;
+  max-width: 40%;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 1439px) {
+  .registration__title {
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .registration__title {
+    max-width: 210px;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 30px auto 0 auto;
+  }
+}
+
+.registration__title:hover {
+  cursor: pointer;
+  opacity: 70%;
+  transition: 0.5s;
+}

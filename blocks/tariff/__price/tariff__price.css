@@ -1,0 +1,25 @@
+.tariff__price {
+  width: 446px;
+  height: 300px;
+  background-color: #e2e5f2;
+  border-radius: 20px;
+  position: absolute;
+  top: 83px;
+  right: 111px;
+  z-index: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .tariff__price {
+    width: 198px;
+    height: 285px;
+    top: 101px;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tariff__price {
+    display: none;
+  }
+}

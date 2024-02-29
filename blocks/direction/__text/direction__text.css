@@ -1,0 +1,17 @@
+.direction__text {
+  margin: 58px 0 0 0;
+  padding: 0;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 33px;
+  color: #444444;
+}
+
+@media screen and (max-width: 767px) {
+  .direction__text {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 19px 0 0 0;
+    max-width: 216px;
+  }
+}

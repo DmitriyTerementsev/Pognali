@@ -1,0 +1,17 @@
+.popup__tariff {
+  margin: 27px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e1e3e9;
+}
+
+.popup__tariff:first-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .popup__tariff {
+    margin: 15px 0 0 0;
+    flex-direction: column;
+  }
+}

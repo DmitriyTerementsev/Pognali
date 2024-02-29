@@ -1,0 +1,11 @@
+.header__links {
+  display: flex;
+  list-style-type: none;
+  gap: 34px;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__links {
+    display: none;
+  }
+}

@@ -1,0 +1,20 @@
+.section_about {
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+  .section_about {
+    padding-bottom: 89px;
+    padding-top: 250px;
+    margin-top: -140px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_about {
+    margin-top: -514px;
+    padding-top: 750px;
+    padding-bottom: 30px;
+    overflow: hidden;
+  }
+}

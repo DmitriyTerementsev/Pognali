@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Погнали?</title>
+  </head>
+
+  <body class="root">
+    <div class="background-image">
+      <header class="header">
+        <div class="header__logo"></div>
+        <img class="header__line" src="./images/line.svg" />
+        <img
+          src="./images/Menu-icon_tablet.svg"
+          alt="icon"
+          class="header__burger header__burger_top"
+        />
+        <img
+          src="./images/icon_close.svg"
+          alt="closeIcon"
+          class="close__icon"
+        />
+        <nav class="header__navigate">
+          <ul class="header__links">
+            <li>
+              <a href="#about" class="header__link header__link_light"
+                >О СЕРВИСЕ</a
+              >
+            </li>
+            <li>
+              <a href="#direction" class="header__link header__link_light"
+                >НАПРАВЛЕНИЯ</a
+              >
+            </li>
+            <li>
+              <a href="#travellers" class="header__link header__link_light"
+                >ПОПУТЧИКИ</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="header__buttons">
+          <button class="header__button header__button_phone">
+            <img src="./images/icon_call.svg" alt="Icon" class="button__icon" />
+          </button>
+          <button class="header__button header__button_mail">
+            <img src="./images/icon_mail.svg" alt="Icon" class="button__icon" />
+          </button>
+          <button class="header__button header__button_auth">
+            АВТОРИЗАЦИЯ
+          </button>
+        </div>
+      </header>
+
+      <section class="landing">
+        <div class="landing__text">
+          <h1 class="landing__title">В путешествие с крутыми попутчиками!</h1>
+          <div class="landing__image"></div>
+          <div class="landing__quote">
+            <blockquote class="quote">
+              «Лучшее приложение, что я видел в жизни!»
+            </blockquote>
+            <p class="quote__author">
+              Мурат Эльтазин главный редактор газеты «гаджетлайф»
+            </p>
+          </div>
+        </div>
+        <div class="landing-steps">
+          <div class="step step_1">
+            <p class="step__text">Выберите направление</p>
+            <p class="step__number">1</p>
+          </div>
+          <div class="step step_2">
+            <p class="step__text">Изучите идеи путешественников</p>
+            <p class="step__number">2</p>
+          </div>
+          <div class="step step_3">
+            <p class="step__text">Находите тех, кто похож на вас</p>
+            <p class="step__number">3</p>
+          </div>
+          <div class="step step_4">
+            <p class="step__text">Путешествуйте вместе!</p>
+            <p class="step__number">4</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <main class="main">
+      <div class="background">
+        <section class="header header_light-theme">
+          <img
+            class="header__logo"
+            src="./images/logo_full_light.svg"
+            alt="Logo"
+          />
+          <img
+            src="./images/Menu-icon_tablet (2).svg"
+            alt="icon"
+            class="header__burger header__burger_light"
+          />
+          <img
+            src="./images/icon_close.svg"
+            alt="closeIcon"
+            class="close__icon close__icon_light"
+          />
+          <img class="header__line" src="./images/line-night.svg" />
+          <nav class="header__navigate">
+            <ul class="header__links header__links_light-theme">
+              <li><a href="#about" class="header__link">О СЕРВИСЕ</a></li>
+              <li>
+                <a href="#direction" class="header__link">НАПРАВЛЕНИЯ</a>
+              </li>
+              <li><a href="#travellers" class="header__link">ПОПУТЧИКИ</a></li>
+            </ul>
+          </nav>
+          <div class="header__buttons">
+            <button class="header__button header__button_phone">
+              <img
+                src="./images/icon_call.svg"
+                alt="Icon"
+                class="button__icon"
+              />
+            </button>
+            <button class="header__button header__button_mail">
+              <img
+                src="./images/icon_mail.svg"
+                alt="Icon"
+                class="button__icon"
+              />
+            </button>
+            <button class="header__button header__button_auth">
+              АВТОРИЗАЦИЯ
+            </button>
+          </div>
+        </section>
+        <div class="burger__menu inactive">
+          <nav class="header__navigate header__navigate_burger">
+            <ul
+              class="header__links header__links_light-theme header__links_light-theme_burger"
+            >
+              <li>
+                <a href="#about" class="header__link header__link_burger"
+                  >О СЕРВИСЕ</a
+                >
+              </li>
+              <li>
+                <a href="#direction" class="header__link header__link_burger"
+                  >НАПРАВЛЕНИЯ</a
+                >
+              </li>
+              <li>
+                <a href="#travellers" class="header__link header__link_burger"
+                  >ПОПУТЧИКИ</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="registration__contacts registration__contacts_burger">
+            <div class="registration__contact">
+              <div class="contact__border">
+                <img
+                  src="./images/icon_telephone.svg"
+                  alt="icon"
+                  class="contact__icon"
+                />
+              </div>
+              <p class="contact__text contact__text_burger">8 800 555-86-28</p>
+            </div>
+            <div class="registration__contact">
+              <div class="contact__border">
+                <img
+                  src="./images/icon_mail (copy).svg"
+                  alt="icon"
+                  class="contact__icon"
+                />
+              </div>
+              <p class="contact__text contact__text_burger">
+                mail@htmlacademy.ru
+              </p>
+            </div>
+          </div>
+          <ul class="footer__contacts footer__contacts_burger">
+            <li class="footer__contact footer__contact_burger">
+              <img
+                src="./images/icon_facebook.svg"
+                alt="facebook"
+                class="contact__icon"
+              />
+            </li>
+            <li class="footer__contact footer__contact_burger">
+              <img
+                src="./images/icon_vkontakte.svg"
+                alt="vk"
+                class="contact__icon"
+              />
+            </li>
+            <li class="footer__contact footer__contact_burger">
+              <img
+                src="./images/icon_instagram.svg"
+                alt="zaprescheno v RF"
+                class="contact__icon"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <section id="about" class="section section_about">
+        <div class="top-block top-block_dark"></div>
+        <div class="section__container">
+          <div class="square"></div>
+          <div class="section__description">
+            <h2 class="section__title">О сервисе</h2>
+            <p class="section__text">
+              Любое путешествие веселее с попутчиками, которые на одной волне с
+              тобой! Делитесь своими идеями путешествий и черпайте вдохновение в
+              чужих.
+            </p>
+            <p class="section__tip">
+              А если найдете кого-то близкого по духу — скорее зовите в
+              совместный трип!
+            </p>
+            <button class="button button_about">
+              <p class="button__text">Подробнее</p>
+              <img
+                class="button__triangle"
+                src="./images/triangle.svg"
+                alt="triangle"
+              />
+            </button>
+          </div>
+          <div class="section__image section__image_about"></div>
+        </div>
+      </section>
+
+      <section id="direction" class="direction">
+        <div class="top-block top-block_dark"></div>
+        <div class="direction__container">
+          <div class="square square_light"></div>
+          <div class="cards">
+            <div class="card">
+              <div class="card__description">
+                <div class="card__name">
+                  <h4 class="card__title">Таиланд</h4>
+                  <p class="card__text">Джунгли зовут!</p>
+                </div>
+
+                <div class="card__counter">
+                  <img
+                    src="./images/icon_user.svg"
+                    alt="icon"
+                    class="card__icon"
+                  />
+                  <p class="card__number">18321</p>
+                </div>
+              </div>
+              <img
+                src="./images/Thailand 1.png"
+                alt="flag"
+                class="card__flag"
+              />
+              <div class="card__image card__image_1"></div>
+            </div>
+
+            <div class="card">
+              <div class="card__description">
+                <div class="card__name">
+                  <h4 class="card__title">Франция</h4>
+                  <p class="card__text">Трэ бьен, манифик!</p>
+                </div>
+
+                <div class="card__counter">
+                  <img
+                    src="./images/icon_user.svg"
+                    alt="icon"
+                    class="card__icon"
+                  />
+                  <p class="card__number">12518</p>
+                </div>
+              </div>
+              <img src="./images/France 1.png" alt="flag" class="card__flag" />
+              <div class="card__image card__image_2"></div>
+            </div>
+            <div class="card">
+              <div class="card__description">
+                <div class="card__name">
+                  <h4 class="card__title">Чехия</h4>
+                  <p class="card__text">Закоулки старой Европы</p>
+                </div>
+
+                <div class="card__counter">
+                  <img
+                    src="./images/icon_user.svg"
+                    alt="icon"
+                    class="card__icon"
+                  />
+                  <p class="card__number">5326</p>
+                </div>
+              </div>
+              <img src="./images/Czech 1.png" alt="flag" class="card__flag" />
+              <div class="card__image card__image_3"></div>
+            </div>
+            <div class="fade"></div>
+          </div>
+          <div class="direction__description">
+            <h2 class="direction__title">Направления</h2>
+            <p class="direction__text">
+              Мы не продаем туры и ничего не рекламируем. Люди сами пишут о
+              странах, куда хотели бы отправиться и чем можно там заняться.
+            </p>
+            <button class="button button_direction">
+              <p class="button__text">Показать все</p>
+              <img
+                class="button__triangle"
+                src="./images/triangle.svg"
+                alt="triangle"
+              />
+            </button>
+          </div>
+          <img
+            src="./images/flags-back 1.svg"
+            alt="flags"
+            class="direction__image"
+          />
+        </div>
+      </section>
+
+      <section id="travellers" class="section section_travellers">
+        <div class="top-block top-block_light"></div>
+        <div class="section__container section__container_travellers">
+          <div class="square square_night"></div>
+          <div class="section__description section__description_travellers">
+            <h2 class="section__title">Попутчики</h2>
+            <p class="section__text section__text_travellers">
+              Все мы индивидуальны и у каждого свой взгляд на идеальный отдых.
+              Одному нужен пляж и коктейль, а другому маршрут для хайкинга.
+            </p>
+            <p class="section__tip">
+              Теперь можно легко найти единомышленников!
+            </p>
+            <button class="button button_travellers">
+              <p class="button__text">Показать всех</p>
+              <img
+                class="button__triangle"
+                src="./images/triangle.svg"
+                alt="triangle"
+              />
+            </button>
+          </div>
+          <div class="section__images">
+            <div class="section__image">
+              <img src="./images/mark.png" alt="icon" class="image__rank" />
+              <img src="./images/Layer 13 1.png" alt="img" class="image" />
+              <div class="image__flags">
+                <img
+                  src="./images/Sri-Lanka.svg"
+                  alt="flag"
+                  class="image__flag"
+                />
+                <img
+                  src="./images/Thailand.svg"
+                  alt="flag"
+                  class="image__flag"
+                />
+                <img
+                  src="./images/Seychelles.svg"
+                  alt="flag"
+                  class="image__flag"
+                />
+              </div>
+              <p class="image__name">Таня Фирсова</p>
+              <p class="image__hashtags">
+                #ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи
+              </p>
+              <div class="image__icons">
+                <img
+                  src="./images/icon_plane.svg"
+                  alt="icon"
+                  class="image__icon"
+                />
+                <img
+                  src="./images/icon_bus.svg"
+                  alt="icon"
+                  class="image__icon"
+                />
+                <img
+                  src="./images/icon_bicycle.svg"
+                  alt="icon"
+                  class="image__icon"
+                />
+                <img
+                  src="./images/icon_run.svg"
+                  alt="icon"
+                  class="image__icon"
+                />
+              </div>
+            </div>
+            <div class="section__image">
+              <img src="./images/mark (1).png" alt="icon" class="image__rank" />
+              <img src="./images/demin-desktop 1.png" alt="img" class="image" />
+              <div class="image__flags">
+                <img
+                  src="./images/Belgium.svg"
+                  alt="flag"
+                  class="image__flag"
+                />
+                <img
+                  src="./images/Czech 2.svg"
+                  alt="flag"
+                  class="image__flag"
+                />
+              </div>
+              <p class="image__name">Петя Демин</p>
+              <p class="image__hashtags">
+                #бургер #бар #футбол #концерт #крафт
+              </p>
+              <div class="image__icons">
+                <img
+                  src="./images/icon_plane.svg"
+                  alt="icon"
+                  class="image__icon"
+                />
+                <img
+                  src="./images/icon_bus (2).svg"
+                  alt="icon"
+                  class="image__icon"
+                />
+                <img
+                  src="./images/icon_bicycle.svg"
+                  alt="icon"
+                  class="image__icon"
+                />
+                <img
+                  src="./images/icon_run (2).svg"
+                  alt="icon"
+                  class="image__icon"
+                />
+              </div>
+            </div>
+          </div>
+          <img
+            src="./images/smolov-back-desktop.png"
+            alt="Photo"
+            class="section__background-image section__background-image_top"
+          />
+          <img
+            src="./images/rogovaya-back-desktop.png"
+            alt="Photo"
+            class="section__background-image section__background-image_bottom"
+          />
+        </div>
+      </section>
+
+      <section class="tariff">
+        <div class="top-block top-block_dark"></div>
+        <div class="tariff__container">
+          <h3 class="tariff__title">Добавьте свой профиль</h3>
+          <div class="tariff__sheet">
+            <div class="tariff__list">
+              <ul class="tariff__variants">
+                <li class="tariff__variante">
+                  <div class="tariff__border tariff__border_1">
+                    <p class="tariff__number">1</p>
+                  </div>
+                  <div class="tariff__description">
+                    <p class="tariff__text">Базовое размещение</p>
+                    <p class="tariff__text">Бесплатно</p>
+                  </div>
+                </li>
+                <li class="tariff__variante">
+                  <div class="tariff__border tariff__border_2">
+                    <p class="tariff__number">2</p>
+                  </div>
+                  <div class="tariff__description">
+                    <p class="tariff__text">Вывод на первых позициях</p>
+                    <p class="tariff__text">99 руб./мес</p>
+                  </div>
+                </li>
+                <li class="tariff__variante">
+                  <div class="tariff__border tariff__border_3">
+                    <p class="tariff__number">3</p>
+                  </div>
+                  <div class="tariff__description">
+                    <p class="tariff__text">Кастомный цвет карточки</p>
+                    <p class="tariff__text">59 руб./мес</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="tariff__price"></div>
+            <img class="tariff__image" src="./images/rates.png" alt="photo" />
+          </div>
+          <div class="tariff__business">
+            <img
+              class="tariff__icon"
+              src="./images/business rates link.svg"
+              alt="Icon"
+            />
+            <p class="tariff__business-text">Показать тарифы для бизнеса</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="registration">
+        <div class="top-block top-block_light"></div>
+        <h3 class="registration__title">Заинтересовались?</h3>
+        <div class="registration__container inactive">
+          <p class="registration__subtitle">
+            Зарегистрируйтесь, это быстро и бесплатно! Уже зарегистрированы?
+            Тогда скорее авторизуйтесь.
+          </p>
+          <form class="registration__form">
+            <input type="text" class="registration__input" value="E-mail" />
+            <button class="button button_register">
+              <p class="button__text button__text_register">Регистрация</p>
+              <img
+                class="button__triangle button__triangle_register"
+                src="./images/triangle.svg"
+                alt="triangle"
+              />
+            </button>
+          </form>
+          <p class="registration__text">
+            Остались вопросы? Мы с радостью на них ответим!
+          </p>
+          <div class="registration__contacts">
+            <div class="registration__contact">
+              <div class="contact__border">
+                <img
+                  src="./images/icon_telephone.svg"
+                  alt="icon"
+                  class="contact__icon"
+                />
+              </div>
+              <p class="contact__text">8 800 555-86-28</p>
+            </div>
+            <div class="registration__contact">
+              <div class="contact__border">
+                <img
+                  src="./images/icon_mail (copy).svg"
+                  alt="icon"
+                  class="contact__icon"
+                />
+              </div>
+              <p class="contact__text">mail@htmlacademy.ru</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="adress inactive">
+        <div class="top-block top-block_dark"></div>
+        <div class="adress__contacts">
+          <div class="contact__border">
+            <img
+              src="./images/icon_location.svg"
+              alt="icon"
+              class="contact__icon"
+            />
+          </div>
+          <p class="contact__text contact__text_adress">
+            ул. Большая Конюшенная, 19/8
+          </p>
+          <button class="button button_adress">
+            <p class="button__text button__text_adress">Проложить маршрут</p>
+            <img
+              class="button__triangle"
+              src="./images/triangle.svg"
+              alt="triangle"
+            />
+          </button>
+        </div>
+      </section>
+      <section class="map inactive">
+        <div class="top-block top-block_yellow"></div>
+        <div class="map__image"></div>
+        <img src="./images/icon_map.svg" alt="dot" class="map__dot" />
+        <div class="top-block top-block_white"></div>
+      </section>
+    </main>
+    <footer class="footer inactive">
+      <div class="footer__container">
+        <div class="footer__logo"></div>
+        <ul class="footer__contacts">
+          <li class="footer__contact">
+            <img
+              src="./images/icon_facebook.svg"
+              alt="facebook"
+              class="contact__icon"
+            />
+          </li>
+          <li class="footer__contact">
+            <img
+              src="./images/icon_vkontakte.svg"
+              alt="vk"
+              class="contact__icon"
+            />
+          </li>
+          <li class="footer__contact">
+            <img
+              src="./images/icon_instagram.svg"
+              alt="zarescheno v RF"
+              class="contact__icon"
+            />
+          </li>
+        </ul>
+        <div class="footer__copyright">
+          <p class="footer__text">&#169; Dmitriy Terementsev</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="popup">
+      <div class="popup__container">
+        <h3 class="popup__title">Бизнес-тарифы</h3>
+        <ul class="popup__tariffs">
+          <li class="popup__tariff">
+            <p class="popup__tariff-text">Реклама у блоггера</p>
+            <p class="popup__tariff-text">300 000 руб./пост</p>
+          </li>
+          <li class="popup__tariff">
+            <p class="popup__tariff-text">Накрутка подписчиков</p>
+            <p class="popup__tariff-text">от 1 руб./шт.</p>
+          </li>
+          <li class="popup__tariff">
+            <p class="popup__tariff-text">Лайки от ботов</p>
+            <p class="popup__tariff-text">от 20 коп./лайк</p>
+          </li>
+          <li class="popup__tariff">
+            <p class="popup__tariff-text">Ваш продакт-плейсмент</p>
+            <p class="popup__tariff-text">Индивидуально</p>
+          </li>
+        </ul>
+        <button class="popup__button">
+          <p class="popup__button-text">Закрыть окно</p>
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="./scripts/index.js"></script>
+</html>

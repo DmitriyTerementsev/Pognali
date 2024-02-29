@@ -1,0 +1,26 @@
+.step {
+  height: 107px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #161c35;
+}
+
+@media screen and (max-width: 1439px) {
+  .step {
+    height: 140px;
+    border-radius: 0;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .step {
+    height: 160px;
+    border-radius: 0;
+    flex-direction: row;
+  }
+}

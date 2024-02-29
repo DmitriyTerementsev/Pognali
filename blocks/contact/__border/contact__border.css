@@ -1,0 +1,18 @@
+.contact__border {
+  display: flex;
+  width: 90px;
+  height: 90px;
+  background-color: #121936;
+  border-radius: 50%;
+  justify-content: center;
+  align-content: center;
+  margin: 0 31px 0 0;
+}
+
+@media screen and (max-width: 767px) {
+  .contact__border {
+    min-width: 45px;
+    max-width: 45px;
+    height: 45px;
+  }
+}

@@ -1,0 +1,24 @@
+.registration__contacts {
+  display: flex;
+  margin: 43px auto 0 auto;
+  width: 80%;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .registration__contacts {
+    flex-direction: column;
+    margin: 40px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .registration__contacts {
+    flex-direction: column;
+    margin: 17px 0 0 0;
+  }
+}
+
+.registration__contacts:hover {
+  cursor: pointer;
+}

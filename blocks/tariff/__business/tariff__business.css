@@ -1,0 +1,17 @@
+.tariff__business {
+  display: flex;
+  margin: 30px 0 0 0;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 767px) {
+  .tariff__business {
+    margin: 46px 0 0 0;
+  }
+}
+
+.tariff__business:hover {
+  opacity: 70%;
+  cursor: pointer;
+  transition: 0.5s;
+}

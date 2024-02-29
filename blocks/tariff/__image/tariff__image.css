@@ -1,0 +1,24 @@
+.tariff__image {
+  position: absolute;
+  top: 135px;
+  right: 0;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1439px) {
+  .tariff__image {
+    width: 100px;
+    height: 100px;
+    top: 355px;
+    right: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tariff__image {
+    width: 100px;
+    height: 100px;
+    top: -83px;
+    right: 0px;
+  }
+}

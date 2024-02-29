@@ -1,0 +1,33 @@
+.button_adress {
+  margin: 0 0 0 auto;
+  width: 324px;
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid #192144;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 1439px) {
+  .button_adress {
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    bottom: 84px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button_adress {
+    position: absolute;
+    width: 84%;
+    height: 62px;
+    margin: 0 auto;
+    bottom: 35px;
+  }
+}
+
+.button_adress:hover {
+  cursor: pointer;
+  background-color: #192144;
+  transition: 0.5s;
+}

@@ -1,0 +1,10 @@
+.tariff__sheet {
+  display: flex;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .tariff__sheet {
+    flex-direction: column;
+  }
+}

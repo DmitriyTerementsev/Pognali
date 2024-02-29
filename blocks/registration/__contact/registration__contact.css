@@ -1,0 +1,14 @@
+.registration__contact {
+  display: flex;
+  margin-right: 110px;
+}
+
+.registration__contact:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .registration__contact {
+    margin-right: 0;
+  }
+}

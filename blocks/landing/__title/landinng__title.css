@@ -1,0 +1,25 @@
+.landing__title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  max-width: 418px;
+  margin: 100px 0 0 67px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .landing__title {
+    max-width: 399px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .landing__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+}

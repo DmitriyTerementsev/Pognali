@@ -1,0 +1,23 @@
+.registration__text {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+  margin: 70px 0 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .registration__text {
+    margin: 60px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .registration__text {
+    max-width: 80%;
+    margin: 29px auto 0 auto;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

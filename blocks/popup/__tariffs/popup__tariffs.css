@@ -1,0 +1,14 @@
+.popup__tariffs {
+  margin: 88px auto 0 auto;
+  list-style-type: none;
+  width: 89%;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+  .popup__tariffs {
+    margin: 55px auto 0 auto;
+  }
+}

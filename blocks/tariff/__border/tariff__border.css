@@ -1,0 +1,16 @@
+.tariff__border {
+  border-radius: 50%;
+  width: 68px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .tariff__border {
+    width: 34px;
+    height: 34px;
+    margin-top: 10px;
+  }
+}

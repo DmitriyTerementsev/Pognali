@@ -1,0 +1,14 @@
+.direction {
+  background-color: #edeff6;
+  position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+  .direction {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .direction {
+  }
+}

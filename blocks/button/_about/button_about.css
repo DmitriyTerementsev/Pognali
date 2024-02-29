@@ -1,0 +1,15 @@
+.button_about {
+  margin-top: 85px;
+}
+
+@media screen and (max-width: 1439px) {
+  .button_about {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button_about {
+    display: none;
+  }
+}

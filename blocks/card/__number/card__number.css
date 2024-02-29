@@ -1,0 +1,16 @@
+.card__number {
+  margin: 0 0 0 8px;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #161c35;
+  opacity: 30%;
+}
+
+@media screen and (max-width: 767px) {
+  .card__number {
+    font-size: 16px;
+    margin: 0 0 0 5px;
+  }
+}

@@ -1,0 +1,17 @@
+.square {
+  width: 212px;
+  height: 212px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-color: #141b3b;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 1439px) {
+  .square {
+    width: 100%;
+    border-radius: 0;
+  }
+}

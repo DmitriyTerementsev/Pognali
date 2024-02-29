@@ -1,0 +1,24 @@
+.section__text {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 34px;
+  max-width: 440px;
+  margin: 57px 0 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .section__text {
+    max-width: 308px;
+    margin: 40px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section__text {
+    max-width: 80%;
+    margin: 19px 0 0 0;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

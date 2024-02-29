@@ -1,0 +1,10 @@
+.footer__copyright {
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    margin-top: 50px;
+    justify-content: space-between;
+  }
+}

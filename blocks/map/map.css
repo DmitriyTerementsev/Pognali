@@ -1,0 +1,17 @@
+.map {
+  position: relative;
+  
+  height: 584px;
+}
+
+@media screen and (max-width: 1439px) {
+  .map {
+    height: 581px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .map {
+    height: 424px;
+  }
+}

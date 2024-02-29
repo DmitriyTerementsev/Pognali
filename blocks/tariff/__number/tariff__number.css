@@ -1,0 +1,13 @@
+.tariff__number {
+  margin: auto;
+  padding: 0;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .tariff__number {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+}

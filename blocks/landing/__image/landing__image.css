@@ -1,0 +1,35 @@
+.landing__image {
+  background-image: url(../../../images/traveller-illustration-desktop1.svg);
+  width: 431px;
+  height: 640px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-27%, 0);
+  z-index: -1;
+}
+
+@media screen and (max-width: 1439px) {
+  .landing__image {
+    background-image: url(../../../images/traveller-illustration-tablet\ 1.svg);
+    width: 372px;
+    height: 451px;
+    top: 242px;
+    left: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .landing__image {
+    background-image: url(../../../images/traveller-illustration-mobile\ 1.svg);
+    width: 192px;
+    height: 255px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 10px;
+    left: 40%;
+  }
+}

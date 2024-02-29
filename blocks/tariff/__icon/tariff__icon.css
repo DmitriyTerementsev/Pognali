@@ -1,0 +1,11 @@
+.tariff__icon {
+  width: 68px;
+  height: 68px;
+}
+
+@media screen and (max-width: 767px) {
+  .tariff__icon {
+    display: none;
+  }
+}
+

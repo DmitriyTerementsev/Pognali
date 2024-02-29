@@ -1,0 +1,10 @@
+.footer__contact_burger {
+  background-color: #ffffff;
+  transition: 0.5s;
+}
+
+.footer__contact_burger:hover {
+  background-color: #ffffff;
+  opacity: 80%;
+  transition: 0.5s;
+}

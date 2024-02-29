@@ -1,0 +1,25 @@
+.header__button_phone {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ff8d30;
+  transition: .5s;
+}
+
+.header__button_phone:hover {
+  transition: .5s;
+  background-color: #f26926;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__button_phone {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__button_phone {
+    display: block;
+  }
+}

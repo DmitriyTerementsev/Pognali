@@ -1,0 +1,39 @@
+.section__image {
+  height: 483px;
+  width: 285px;
+  margin-right: 60px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  position: relative;
+}
+
+.section__image:last-of-type {
+  margin: 0;
+}
+
+.image:hover {
+  transform: scale(1.01);
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 1439px) {
+  .section__image {
+    margin-right: 40px;
+  }
+
+  .section__image:last-of-type {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section__image {
+    width: 270px;
+    height: 428px;
+    margin-right: 0;
+  }
+
+  .section__image:last-of-type {
+    margin-top: 10px;
+  }
+}

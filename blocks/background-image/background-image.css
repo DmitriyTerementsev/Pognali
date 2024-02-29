@@ -1,0 +1,9 @@
+.background-image {
+  background-image: url(/images/globe-back-desktop.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 550px;
+  width: 100%;
+  position: relative;
+}

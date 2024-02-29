@@ -1,0 +1,23 @@
+.header__link {
+  text-decoration: none;
+  color: #192144;
+  margin-right: 34px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  transition: 0.5s;
+}
+
+.header__link_light {
+  color: #ffffff;
+}
+
+.header__link:hover {
+  color: #ffd74b;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.header__link:last-of-type {
+  margin: 0;
+}

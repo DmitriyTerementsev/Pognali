@@ -1,0 +1,26 @@
+.header__button_mail {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffbd30;
+  transition: 0.5s;
+}
+
+.header__button_mail:hover {
+  background-color: #ff8d30;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__button_mail {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .header__button_mail {
+    display: block;
+  }
+}

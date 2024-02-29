@@ -1,0 +1,22 @@
+.landing {
+  width: 91%;
+  margin: 11px auto 0 auto;
+  position: relative;
+  z-index: 5;
+}
+
+@media screen and (max-width: 1439px) {
+  .landing {
+    width: 90%;
+    margin: 72px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .landing {
+    width: 84%;
+    margin: 60px auto 0 auto;
+  }
+}

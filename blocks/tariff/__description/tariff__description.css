@@ -1,0 +1,22 @@
+.tariff__description {
+  display: flex;
+  margin: 0 0 0 23px;
+  min-width: 813px;
+  justify-content: space-between;
+  z-index: 5;
+}
+
+@media screen and (max-width: 1439px) {
+  .tariff__description {
+    min-width: 563px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tariff__description {
+    min-width: 139px;
+    margin-left: 0;
+    flex-direction: column;
+    justify-content: start;
+  }
+}

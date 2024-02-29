@@ -1,0 +1,17 @@
+.card__description {
+  max-width: 215px;
+  padding-top: 24px;
+  margin: 0 0 0 29px;
+}
+
+@media screen and (max-width: 767px) {
+  .card__description {
+    width: 100%;
+    background-color: #ffffff;
+    margin: 100px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+}

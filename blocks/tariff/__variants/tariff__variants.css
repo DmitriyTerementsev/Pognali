@@ -1,0 +1,11 @@
+.tariff__variants {
+  margin: 134px 0 0 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .tariff__variants {
+    margin: 43px 0 0 0;
+  }
+}

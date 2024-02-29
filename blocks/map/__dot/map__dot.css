@@ -1,0 +1,19 @@
+.map__dot {
+  position: absolute;
+  top: 41%;
+  left: 45%;
+}
+
+@media screen and (max-width: 1439px) {
+  .map__dot {
+    top: 38%;
+    left: 45%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .map__dot {
+    top: 35%;
+    left: 45%;
+  }
+}

@@ -1,0 +1,23 @@
+.landing-steps {
+  width: 100%;
+  display: flex;
+  margin: 101px 0 0 0;
+  z-index: 5;
+}
+
+@media screen and (max-width: 1439px) {
+  .landing-steps {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.06fr 1fr;
+    margin: 211px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .landing-steps {
+    grid-template-columns: 1fr;
+    margin: 29px 0 0 0;
+  }
+}
+

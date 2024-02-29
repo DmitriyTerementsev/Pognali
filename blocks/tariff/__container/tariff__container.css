@@ -1,0 +1,16 @@
+.tariff__container {
+  width: 82%;
+  margin: 107px auto 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .tariff__container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tariff__container {
+    width: 77%;
+  }
+}

@@ -1,0 +1,22 @@
+.header__buttons {
+  margin-left: auto;
+  display: flex;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__buttons {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__buttons {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 150;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, -20%);
+  }
+}

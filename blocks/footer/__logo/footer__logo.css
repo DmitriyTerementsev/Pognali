@@ -1,0 +1,25 @@
+.footer__logo {
+  background-image: url(../../../images/logo_full_light.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto 0;
+  width: 200px;
+  height: 50px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__logo {
+    width: 166px;
+    height: 42px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__logo {
+    background-image: url(../../../images/Vector.svg);
+    width: 96px;
+    height: 15px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,24 @@
+.step__text {
+  max-width: 200px;
+  margin: 30px 0 0 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 1439px) {
+  .step__text {
+    margin: 31px 0 0 33px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .step__text {
+    margin: 22px 0 0 24px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    max-width: 150px;
+  }
+}

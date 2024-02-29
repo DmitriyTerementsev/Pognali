@@ -1,0 +1,16 @@
+.landing__quote {
+  margin: 110px 23px 0 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .landing__quote {
+    margin: 86px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .landing__quote {
+    margin: 48px 0 0 25px;
+  }
+}
+

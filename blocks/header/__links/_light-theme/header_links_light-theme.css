@@ -1,0 +1,10 @@
+.header__links_light-theme {
+  color: #192144;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__links_light-theme {
+    display: flex;
+    flex-direction: column;
+  }
+}

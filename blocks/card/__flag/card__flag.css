@@ -1,0 +1,16 @@
+.card__flag {
+  position: absolute;
+  top: 23px;
+  right: 152px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 767px) {
+  .card__flag {
+    width: 35px;
+    height: 24px;
+    top: 95px;
+    left: 25px;
+  }
+}
+

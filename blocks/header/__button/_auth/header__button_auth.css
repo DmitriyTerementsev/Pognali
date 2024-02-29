@@ -1,0 +1,26 @@
+.header__button_auth {
+  width: 188px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #ffd74b;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  transition: 0.5s;
+}
+
+.header__button_auth:hover {
+  background-color: #FFBD30;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .header__button_auth {
+    display: block;
+  }
+
+  .header__button_auth-top {
+    display: none;
+  }
+}

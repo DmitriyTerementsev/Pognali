@@ -1,0 +1,23 @@
+.section__background-image_bottom {
+  bottom: -54px;
+  left: 10%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1439px) {
+  .section__background-image_bottom {
+    top: 0;
+    left: 53%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section__background-image_bottom {
+    width: 64px;
+    height: 71px;
+    top: 230px;
+    left: -25px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}

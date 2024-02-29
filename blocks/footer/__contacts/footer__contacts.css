@@ -1,0 +1,11 @@
+.footer__contacts {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__contacts {
+    margin: 40px auto 0 auto;
+  }
+}

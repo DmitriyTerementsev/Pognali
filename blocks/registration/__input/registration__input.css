@@ -1,0 +1,31 @@
+.registration__input {
+  width: 72%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #444444;
+  padding-left: 36px;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 1439px) {
+  .registration__input {
+    width: 87%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .registration__input {
+    width: 89%;
+    margin-right: -20px;
+  }
+}
+
+.registration__input:focus {
+  background-color: #192144;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  transition: 0.5s;
+}

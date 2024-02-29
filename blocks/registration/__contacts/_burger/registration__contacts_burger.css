@@ -1,0 +1,11 @@
+.registration__contacts_burger {
+  width: 48%;
+  margin: 50px 0 0 137px;
+}
+
+@media screen and (max-width: 767px) {
+  .registration__contacts_burger {
+    width: 84%;
+    margin: 0 auto;
+  }
+}

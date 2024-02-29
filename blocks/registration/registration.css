@@ -1,0 +1,13 @@
+.registration {
+  background-color: #192144;
+}
+
+@media screen and (max-width: 1439px) {
+  .registration {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .registration {
+  }
+}

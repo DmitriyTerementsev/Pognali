@@ -1,0 +1,17 @@
+.adress {
+  background-color: #ffd74b;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+  .adress {
+    padding-bottom: 184px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .adress {
+    padding-bottom: 85px;
+  }
+}

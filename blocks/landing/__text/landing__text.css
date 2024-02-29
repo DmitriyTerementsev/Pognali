@@ -1,0 +1,10 @@
+.landing__text {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1439px) {
+  .landing__text{
+    flex-direction: column;
+  }
+}

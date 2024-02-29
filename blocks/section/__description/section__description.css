@@ -1,0 +1,9 @@
+.section__description {
+  margin: 42px 0 0 70px;
+}
+
+@media screen and (max-width: 1439px) {
+  .section__description {
+    margin: 41px 0 0 34px;
+  }
+}

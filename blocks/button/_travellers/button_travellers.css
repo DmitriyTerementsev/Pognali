@@ -1,0 +1,19 @@
+.button_travellers  {
+  margin: 85px 0 0 0;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .button_travellers  {
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button_travellers  {
+    bottom: 10px;
+  }
+}

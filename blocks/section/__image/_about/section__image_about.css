@@ -1,0 +1,41 @@
+.section__image_about {
+  background-image: url(../../../../images/img_back.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 630px;
+  height: 665px;
+  background-color:  #192144;
+}
+
+@media screen and (max-width: 1439px) {
+  .section__image_about {
+    background-image: url(../../../../images/img_tablet.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 376px;
+    height: 548px;
+    top: 48px;
+    right: -5%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section__image_about {
+    background-image: url(../../../../images/about-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 353px;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+}
+
+.section__image_about:hover {
+  transform: none;
+  cursor: auto;
+}

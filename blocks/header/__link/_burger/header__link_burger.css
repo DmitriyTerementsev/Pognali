@@ -1,0 +1,13 @@
+.header__link_burger {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 71px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__link_burger {
+    font-size: 30px;
+    line-height: 35px;
+    margin: 0 auto;
+  }
+}

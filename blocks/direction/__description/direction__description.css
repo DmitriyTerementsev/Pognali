@@ -1,0 +1,17 @@
+.direction__description {
+  margin: 78px 0 0 171px;
+  max-width: 378px;
+}
+
+@media screen and (max-width: 1439px) {
+  .direction__description {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .direction__description {
+    max-width: 67%;
+    margin: 0 0 0 25px;
+  }
+}
